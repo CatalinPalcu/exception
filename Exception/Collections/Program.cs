@@ -92,6 +92,11 @@ namespace Collections
             landAnimals.Add(new Animal("tiger", Gender.Female));
             landAnimals.Add(new Animal("zebra", Gender.Male));
             landAnimals.Add(new Animal("fox", Gender.Male));
+
+            foreach (var animal in landAnimals)
+            {
+                Console.WriteLine(animal);
+            }
         }
     }
 }

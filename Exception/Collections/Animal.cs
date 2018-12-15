@@ -25,7 +25,7 @@ namespace Collections
 
         public override string ToString()
         {
-            return this.Name + " " + this.MyGender.ToString();
+            return this.Name + " => gender " + this.MyGender.ToString();
         }
     }
 }
